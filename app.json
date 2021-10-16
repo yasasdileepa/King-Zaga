@@ -1,0 +1,197 @@
+{
+	"name": "Mizuki",
+	"description": "Mizuki - Makes it easy and fun to use Whatsapp. An userbot made for WhatsApp.",
+	"logo": "https://telegra.ph/file/1f4b6cc58aa91caaa8288.jpg",
+	"keywords": ["whatsapp", "userbot", "Mizuki", "miuzki", "bot", "api", "ai"],
+	"repository": "https://github.com/MrJoka-Thejaka/Mizuki",
+	"website": "https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo",
+	"success_url": "https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUMEo",         
+	"stack": "container",
+	"env": {
+		"MIZUKI_SESSION": {
+			"description": "Qr කේතය scan කළ පසුව ලැබෙන කේතය.",
+			"required": true
+		},
+		"SUDO": {
+			"description": "උබට බොටාව වෙන නම්බරේකින් කන්ට්‍රෝල් කරන්න ඕන්නම් දාපන්(ඇඩ්මින් කමාන්ඩ්ස්) Ex :- 947xxxxxxxx (Sri lanka අංකය 94",
+			"required": false
+		},
+		"LANGUAGE": {
+			"description": "Bot භාෂාව.සිංහල භාෂාව සඳහා SI ලෙස සඳහන් කරන්න.ඉංග්‍රීසි භාෂාව සඳහා EN ලෙස සඳහන් කරන්න",
+			"required": true,
+			"value": "SI"
+		},
+		"ANTİ_LİNK": {
+			"description": "Link Blocking System.මොකෙක් හරි ලින්ක් දැම්මොත් ඌව ban වෙනව..",
+			"required": true,
+			"value": "false"
+		},
+		"AUTO_BİO": {
+			"description": " Set true for auto date, time in biography.",
+			"required": true,
+			"value": "false"
+		},
+		"HANDLERS": {
+			"description": "බොට්ට කමාන්ඩ් එකක් දෙද්දි මුලට දාන්න ඕනෙ සලකුණ",
+			"required": true,
+			"value": "^[.!;]"
+		},
+		"FULL_EVA": {
+			"description": "Turn your account into a chatbot!",
+			"required": true,
+			"value": "false"
+		},
+		"NO_LOG": {
+			"description": "උබට එපා කරපු log messages බලන්න ඕන්නැත්තන් true කියල තියපන්",
+			"required": true,
+			"value": "false"
+		},
+		"SEND_READ": {
+			"description": "බොටා මැසේජ් සීන් කරන්න ඕන්නම් true දියන් ඕන්නැත්තන් false දියන්.",
+			"required": true,
+			"value": "true"
+		},
+		"HEROKU": {
+			"description": "If it is running in Heroku, type true.",
+			"required": true,
+			"value": "true"
+		},
+		"ALIVE_LOGO": {
+			"description": "එය ඔබගේ ALIVE LOGO වෙනස් කරයි...ඔබ කැමති image https://telegra.ph upload කර ලින්ක් දෙන්න.",
+			"required": true,
+			"value": "https://telegra.ph/file/52d12737a0d15888155ec.jpg"
+		},
+		"C_EMOJI": {
+			"description": "එය ඔබගේ menu එකෙහි කමාන්ඩ් එකට පෙර ඇති emoji  වෙනස් කරයි...ඔබ කැමති emoji යක් යොදන්න.",
+			"required": false,
+			"value": "📕"
+		},
+		"D_EMOJI": {
+			"description": "එය ඔබගේ menu එකෙහි ඩිස්ක්‍රිප්ශන් එකට පෙර ඇති emoji  වෙනස් කරයි...ඔබ කැමති emoji යක් යොදන්න.",
+			"required": false,
+			"value": "📖"	
+		},
+		"CUS_PANEL": {
+			"description": "එය ඔබගේ menu එක ලබා ගැනීමට ඔබට අවශ්‍ය කමාන්ඩ් එකක් ඇඩ් කරයි.ඔබ කැමති command එකක් යොදන්න. Ex:- mizuki",
+			"required": false,
+			"value": "mizuki"	
+			
+		},
+		"BYE_GIF": {
+			"description": "එය ඔබගේ Bye GIF එක වෙනස් කරයි...ඔබ කැමති වීඩියෝවක direct link මෙහි දමන්න.",
+			"required": false,
+			"value": "https://thumbsnap.com/i/PQ7iHqwx.mp4"
+		
+		},
+		"WELCOME_GIF": {
+			"description": "එය ඔබගේ Welcome GIF එක වෙනස් කරයි...ඔබ කැමති වීඩියෝවක direct link මෙහි දමන්න.",
+			"required": false,
+			"value": "https://thumbsnap.com/i/nfQGh4Pf.mp4"
+			
+				
+		},
+		"HEROKU_API_KEY": {
+			"description": "Heroku API Key එක දාන්න.",
+			"required": true
+		},
+		"MUTE_MESSAGE": {
+			"description": "ගෲපක් මියුට් කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම් ",
+			"required": false,
+			"value": "default"
+		},
+		"BLOCK_CHAT": {
+			"description": "බොටා වැඩ කරන්නැති චැට් එක දෙන්න ඕනෙ. Ex: 94######### හෝ 94#########,94#########",
+			"required": false,
+			"value": "false"
+		},
+		"UNMUTE_MESSAGE": {
+			"description": "ගෲපක් අන්මියුට් කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම්",
+			"required": false,
+			"value": "default"
+		},
+		"BLOCK_MESSAGE": {
+			"description": "මොකෙක් හරි බ්ලොක් කරද්දි එන මැසේජ් එක.",
+			"required": false,
+			"value": "default"
+		},
+		"UNBLOCK_MESSAGE": {
+			"description": "මොකෙක් හරි අන්බ්ලොක් කරද්දි එන මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"WORK_TYPE": {
+			"description": "බොටා වැඩ කරන්න ඕනෙ හැමෝටමනම් public කියලම තියපන්.. උබට විතරක් වැඩ කරන්න ඕන්නම් private කියල දියන්.",
+			"required": true,
+			"value": "public"
+		},
+		"HEROKU_APP_NAME": {
+			"description": "අර උබ උඩ දුන්නු Heroku app name එක දාපන්",
+			"required": true
+		},
+		"DEBUG": {
+			"description": "උබ මේක දන්නැත්තන් මේකෙ මොකුත් ටයිප් කරන්න එපා.",
+			"required": true,
+			"value": "false"
+		},
+		"REMOVE_BG_API_KEY": {
+			"description": "Images වල background එක අයින් කරන්න ඕන්නම් https://remove.bg එකට ගිහින් දෙන API එක මෙතෙන්ට දාපන්",
+			"required": false
+		},
+		"ALIVE_MESSAGE": {
+			"description": "බොටා ඉන්නවද කියල බලන්න කමාන්ඩ් කලාම එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"BAN_MESSAGE": {
+			"description": "මොකෙක්ව හරි ban කරද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"ADD_MESSAGE": {
+			"description": "මොකෙක්ව හරි Add කරද්දි එන්න ඕනෙ මැසේජ් එක.",
+			"required": false,
+			"value": "default"
+		},
+		"KICKME_MESSAGE": {
+			"description": ".kickme ගහල ලෙප්ට් වෙද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"PROMOTE_MESSAGE": {
+			"description": "මොකෙක්ට හරි ඇඩ්මින් දෙද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"DEMOTE_MESSAGE": {
+			"description": "මොකෙක්ගෙන් හරි ඇඩ්මින් අයින් කරද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"AFK_MESSAGE": {
+			"description": "AFK mode එකේ ඉද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"GAN_IMAGE": {
+			"description": "Type image link for Gan Style plugin.",
+			"required": true,
+			"value": "https://telegra.ph/file/e9aca7ad440abd1cad7a1.jpg"
+		},
+		"NO_ONLINE": {
+			"description": "බොටා වට්ස් ඇප් එකට එද්දි online කියල එන්න ඕනෙනම් true තියන්න ඕන්නැත්තන් false දෙන්න",
+			"required": false,
+			"value": "true"
+		},
+		"COFFEEHOUSE_API_KEY": {
+			"description": "ඒක අතෑරපන් මේක අපි දෙනව",
+			"required": false,
+			"value": "true"
+		 }
+   	 },
+   	 "addons": [{
+   	   "plan": "heroku-postgresql"
+   	 }],
+    	"buildpacks": [{
+    	  "url": "heroku-community/apt"
+     	 }]
+ 	}
