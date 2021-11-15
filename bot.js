@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Yusuf Usta. - Copyright (C) 2021 Mr.joka.
+/* Copyright (C) 2020 Yusuf Usta. - Copyright (C) 2021 Yasasdileepa.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-👸 Mizuki 1.0 beta version  
+🤴King Maraya 1.0  version  
 */
 
 const fs = require("fs");
@@ -92,131 +92,131 @@ async function mizuki () {
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Europe/Istanbul' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('994')) { // Azerbayjan
                 var ov_time = new Date().toLocaleString('AZ', { timeZone: 'Asia/Baku' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('94')) { // Sri Lanka
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('351')) { // Portugal
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { // Russia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('RU', { timeZone: 'Europe/Kaliningrad' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Indian
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { // Indonesia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('ID', { timeZone: 'Asia/Jakarta' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('49')) { // Germany
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Europe/Berlin' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) { // Australia 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('AU', { timeZone: 'Australia/Lord_Howe' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('55')) { // Brazil
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'America/Noronha' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) { // France
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('FR', { timeZone: 'Europe/Paris' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('34')) { // Spain
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Europe/Madrid' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { // UK
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('GB', { timeZone: 'Europe/London' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('39')) { // Italy 
                 var ov_time = new Date().toLocaleString('IT', { timeZone: 'Europe/Rome' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Kazakhistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Almaty' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('998')) { // Uzbekistan 
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { // Turkmenistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Ashgabat' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
             else {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'America/New_York' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n👸 Mizuki'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n🤴Maraya'
                 await conn.setStatus(biography)
             }
         }
     }, 7890);
-    var insult = await axios.get('https://gist.githubusercontent.com/phaticusthiccy/f16bbd4ceeb4324d4a727b431a4ef1f2/raw')
+    var insult = await axios.get('https://gist.githubusercontent.com/yasasdileepa/747b76e616c802aa99de756ddd73b641/raw/')
     const { shs1, shl2, lss3, dsl4 } = insult.data.inside
     await config.DATABASE.sync();
     var StrSes_Db = await WhatsAsenaDB.findAll({
@@ -299,9 +299,9 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('👸 Mizuki' + afwhasena));
+        console.log(chalk.bgGreen('👸 Maraya' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
-        let EVA_ACTİON = config.LANG == 'SI' ? '*Mizuki Chatbot කෙනෙකු ලෙස ක්‍රියා කරයි!* 👸\n\n_මෙම මාදිලියේ පරමාර්ථය නම් බොට් එක සම්පුර්ණ ක්‍රියාකාරී කෘත්‍රිම බුද්ධි චැට් මෙවලමක් බවට පත් කිරීමයි._\n_පෙර පැවති ආකාරයට ආපසු යාමට_ *.fulleva off* _කමාන්ඩ් එක use කරන්න පුළුවන්._\n\n*Mizuki භාවිත කරනවාට ස්තූතියි 💌*\n    *- Eva and Mr.joka*' : '*Mizuki Works as an Chatbot!* 👸\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using Mizuki 💌*\n    *- Eva*'
+        let EVA_ACTİON = config.LANG == 'SI' ? '*Maraya Chatbot කෙනෙකු ලෙස ක්‍රියා කරයි!* \n\n_මෙම මාදිලියේ පරමාර්ථය නම් බොට් එක සම්පුර්ණ ක්‍රියාකාරී කෘත්‍රිම බුද්ධි චැට් මෙවලමක් බවට පත් කිරීමයි._\n_පෙර පැවති ආකාරයට ආපසු යාමට_ *.Maraya* _කමාන්ඩ් එක use කරන්න පුළුවන්._\n\n*Maraya භාවිත කරනවාට ස්තූතියි 💌*\n    *- Yasasdileepa*' : '*MARAYA Works as an Chatbot!* \n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.maraya* _command to return to normal mode._\n\n*Thanks For Using Maraya 💌*\n    *- Eva*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -315,8 +315,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         }
         if (config.WORKTYPE == 'public') {
         var userjidlogo = await axios.get(config.USER_LOGO, { responseType: 'arraybuffer' })
-        const publicmsg = '*Mizuki පබ්ලික්(සැමට භාවිත කල හැකි) ආකාරයට වැඩ කරයි. 👸*\n\n_කරුණාකර මෙහි Plugins භාවිත නොකරන්න. මෙය ඔබේ LOG අංකයයි._\n_ඔබට වෙනත් ඕනෑම කතාබහක දී විධානයන් භාවිත කළ හැකිය :)_\n\n*ඔබේ බොට් පබ්ලික්(සැමට භාවිත කල හැකි ලෙස) ක්‍රියා කරයි. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Mizuki භාවිත කරනවාට ස්තූතියි 💌*'
-        const publicmsgen = '*Mizuki Working as Public! 👸*\n\n_Please do not try plugins here. This is your LOG number._\n_You can use commands in any other chat :)_\n\n*Your bot is working as public. To change it, use* _.setvar WORK_TYPE:private_\n\n*Thanks for using Mizuki 💌*'
+        const publicmsg = '*Maraya පබ්ලික්(සැමට භාවිත කල හැකි) ආකාරයට වැඩ කරයි. 👸*\n\n_කරුණාකර මෙහි Plugins භාවිත නොකරන්න. මෙය ඔබේ LOG අංකයයි._\n_ඔබට වෙනත් ඕනෑම කතාබහක දී විධානයන් භාවිත කළ හැකිය :)_\n\n*ඔබේ බොට් පබ්ලික්(සැමට භාවිත කල හැකි ලෙස) ක්‍රියා කරයි. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*Maraya භාවිත කරනවාට ස්තූතියි 💌*'
+        const publicmsgen = '*Maraya Working as Public! 👸*\n\n_Please do not try plugins here. This is your LOG number._\n_You can use commands in any other chat :)_\n\n*Your bot is working as public. To change it, use* _.setvar WORK_TYPE:private_\n\n*Thanks for using Maraya 💌*'
             if (config.LANG == 'SI') {
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, Buffer.from(userjidlogo.data), MessageType.image, {mimetype: Mimetype.png, caption: EVA_ACTİON})
@@ -373,8 +373,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         }
         else if (config.WORKTYPE == 'private') { 
             var userjidlog = await axios.get(config.USER_LOGO, { responseType: 'arraybuffer' })
-            const privatemsg = '*Mizuki ප්‍රයිවට්(ඔබට පමණක් භාවිත කළ හැකි)ලෙස ක්‍රියාත්මක වේ.! 👸*\n\n_කරුණාකර මෙහි plugins භාවිත නොකරන්න. මෙය ඔබේ LOG අංකයයි._\n_ඔබට වෙනත් ඕනෑම කතාබහක දී විධානයන් භාවිත කළ හැකිය :)_\n\n*ඔබේ බොට් එක වැඩ කරන්නේ ඔබට පමණි ය. වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Mizuki භාවිත කරනවාට ස්තූතියි 💌*'
-            const privatemsgen = '*Mizuki Working as Private! 👸*\n\n_Please do not try plugins here. This is your LOG number._\n_You can use commands in any other chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using Mizuki 💌*'
+            const privatemsg = '*Maraya ප්‍රයිවට්(ඔබට පමණක් භාවිත කළ හැකි)ලෙස ක්‍රියාත්මක වේ.! 👸*\n\n_කරුණාකර මෙහි plugins භාවිත නොකරන්න. මෙය ඔබේ LOG අංකයයි._\n_ඔබට වෙනත් ඕනෑම කතාබහක දී විධානයන් භාවිත කළ හැකිය :)_\n\n*ඔබේ බොට් එක වැඩ කරන්නේ ඔබට පමණි ය. වෙනස් කිරීමට* _.setvar WORK_TYPE:public_ *විධානය භාවිතා කරන්න.*\n\n*Maraya භාවිත කරනවාට ස්තූතියි 💌*'
+            const privatemsgen = '*Maraya Working as Private! 👸*\n\n_Please do not try plugins here. This is your LOG number._\n_You can use commands in any other chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Thanks for using Maraya 💌*'
             if (config.LANG == 'SI') { 
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, Buffer.from(userjidlog.data), MessageType.image, {mimetype: Mimetype.png, caption: EVA_ACTİON})
